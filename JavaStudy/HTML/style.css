@@ -1,0 +1,239 @@
+/* これはコメントです */
+h1 {
+    color: #0000FF;
+}
+p {
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1 {
+    width: 400px; height: 100px;
+    background-color: #ddd;
+}
+.select {
+    color: red;
+}
+#wrapper { /* 共通の処理 */
+    width:800px;
+}
+
+.header {
+    border: solid 1px #999;
+    background-color: yellow;
+}
+
+.main {
+    height: 500px;
+    border: solid 1px #999;
+    background-color: skyblue;
+}
+
+.footer {
+    border: solid 1px #999;
+    background-color: pink;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.wrapper {
+    width: 1024px;
+    margin: 0 auto;
+/* wrapperクラスを中央寄せ */
+}
+.bg-white {
+    background-color: #fff;
+}
+/** header **/
+.header {
+    height: 100px;
+    background-color: #337ab7;
+}
+/** end of header **//** contents **/
+.contents {
+    height: 640px;
+}
+/** left-center **/
+.left-center {
+    float: left;
+    height: 100%;
+}
+/** left **/
+.left {
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: #dff0d8;
+}
+.left-upper {
+    width: 200px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.left-lower {
+    width: 200px;
+    height: 415px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+/** end of left **/
+.center {
+    float: right;
+    width: 424px;
+    height: 100%;
+    background-color: #d9edf7;
+}
+/** end of left-center **//** right **/
+.right {
+    float: right;
+    width: 300px;
+    height: 100%;
+    background-color: #fcf8e3;
+}
+.right-inner {
+    padding-top: 30px;
+    width: 190px;
+    height: 510px;
+    margin: 50px 0 0 50px;
+/* 上と左への指定なら、こういう書き方も出来ます */
+}
+.right-inner-text {
+    padding: 15px 25px;
+    border: 5px solid #eee;
+}
+/** end of right **/
+/** end of contents **/
+/** footer **/
+.footer {
+    height: 100px;
+    background-color: #f2dede;
+}
+/** end of footer **/
+
+/* reset.css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+/*ウィンドウ幅が最大767pxまでの場合に適用(タブレット用)*/
+@media  screen and (max-width: 767px) {
+    #wrapper {
+        width: 80%;
+    }
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media  screen and (max-width: 479px) {
+    .header {
+        height: 300px;
+    }
+    .footer {
+        height: 200px;
+    }
+}
+
+/*ウィンドウ幅が最大479pxまでの場合に適用(タブレット用)*/
+@media  screen and (max-width: 479px) {
+
+    .wrapper {
+        width: 400px;
+    }
+
+    .left {
+        width: 200px;
+        height: 500px;
+    }
+
+    .left-upper {
+        width: 90px;
+        height: 60px;
+    }
+
+    .left-lower {
+        width: 90px;
+        height: 320px;
+    }
+
+    .center {
+        float: none; /* 要素の浮動化の解除 */
+        width: 200px;
+    }
+
+    .right {
+        width: 50%;
+    }
+
+    .right-inner {
+        width: 110px;
+    }
+
+    .right-inner-text {
+        font-size: 5px;
+        padding: 10px;
+        background-color: orange;
+        border: 5px solid red;
+    }
+}
+
+body {
+	width: 100%;
+}
+.wrapper {
+	width: 600px;
+	margin: 0 auto;
+}
+.header {
+	height: 120px;
+	background: #ca1019;
+}
+.side {
+	float: left;
+	width: 180px;
+	height: 540px;
+	background: #2935a8;
+}
+.content {
+	float: right;
+	width: 420px;
+	height: 540px;
+}
+.content-top-left {
+	float: left;
+	width: 280px;
+}
+.content-top-left-top {
+	height: 250px;
+	background: #EBAA1F;
+}
+.content-top-left-bottom {
+	height: 140px;
+	background: #14865F;
+}
+.content-top-right {
+	float: right;
+	width: 140px;
+	height: 390px;
+	background: #33B0BF;
+}
+.content-bottom {
+	height: 150px;
+	background: #C81B54;
+}
+.footer {
+	height: 100px;
+	background: #f4d508;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
