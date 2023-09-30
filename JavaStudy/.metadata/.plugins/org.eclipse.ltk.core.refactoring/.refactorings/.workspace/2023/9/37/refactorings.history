@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Java プロジェクト名 &apos;demo&apos; を &apos;Spring1&apos; に変更&#x0A;- オリジナル要素: &apos;demo&apos;&#x0A;- 名前変更済み要素: &apos;demo&apos;&#x0A;- リファクタリングされた要素の参照を更新" description="Java プロジェクト &apos;demo&apos; の名前変更" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=demo" name="Spring1" references="true" stamp="1694692159947" version="1.0"/>&#x0A;<refactoring comment="リソース &apos;Spring1&apos; を削除" deleteContents="true" description="リソース &apos;Spring1&apos; を削除" element1="/Spring1" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1694692828866"/>
+</session>
